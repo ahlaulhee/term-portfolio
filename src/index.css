@@ -1,3 +1,17 @@
+@import "@fontsource/fira-mono/500.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    /* @apply bg-black; */
+    @apply text-foreground;
+    background-image: url(https://c.wallhere.com/photos/3f/75/KOHAKUNUSHI_katana_pistol_teeth_Nord_Theme_gun_anime_anime_girls-2228202.jpg!d);
+    /* @apply min-h-screen;
+    @apply border-2 rounded-md;
+    @apply p-2 m-4; */
+    font-family: "Fira Mono", sans-serif;
+  }
+}

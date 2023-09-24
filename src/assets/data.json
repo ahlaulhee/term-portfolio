@@ -1,0 +1,236 @@
+{
+  "name": "Alex Hernán Laulhe",
+  "nickname": "ahlaulhee",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum. Mauris luctus volutpat dolor, non mattis tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque a ipsum ante.",
+  "education": [
+    {
+      "name": "FullStack Developer - Henry",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "tech": [
+        "Git",
+        "React",
+        "Express",
+        "NodeJS",
+        "JavaScript",
+        "PostgreSQL",
+        "Sequelize",
+        "HTML5",
+        "CSS",
+        "CSS Modules",
+        "SCRUM",
+        "Data Structures",
+        "Problem Solving",
+        "GitFlow"
+      ]
+    },
+    {
+      "name": "Technical Degree - Universidad Tecnologica de Cordoba",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "tech": [
+        "Java",
+        "C#",
+        ".NET",
+        "React Native",
+        "MongoDB",
+        "Mongoose",
+        "Express",
+        "NodeJS",
+        "Data Structures",
+        "Problem Solving"
+      ]
+    }
+  ],
+  "complementary-education": [
+    {
+      "name": "Udemy - Automate the Boring Stuff with Python Programming",
+      "date": "2020",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "tech": ["Python"]
+    },
+    {
+      "name": "Udemy - The Modern Python 3 Bootcamp",
+      "date": "2020",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "tech": ["Python"]
+    },
+    {
+      "name": "Udemy - Java Programming Masterclass updated to Java 17",
+      "date": "2021",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "tech": ["Java"]
+    },
+    {
+      "name": "Udemy - React Native Complete Course with Redux, NodeJS & MongoDB",
+      "date": "2022",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "tech": [
+        "React Native",
+        "Redux",
+        "NodeJS",
+        "MongoDB",
+        "ExpressJS",
+        "Mongoose"
+      ]
+    },
+    {
+      "name": "freeCodeCamp.org - Learn Rust Programming - Complete Course",
+      "date": "2023",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "tech": ["Rust"]
+    },
+    {
+      "name": "freeCodeCamp.org - Learn Tailwind CSS - Course for Beginners",
+      "date": "2023",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "tech": ["TailwindCSS", "CSS"]
+    },
+    {
+      "name": "freeCodeCamp.org - Learn TypeScript - Full Tutorial",
+      "date": "2023",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "tech": ["TypeScript", "JavaScript"]
+    },
+    {
+      "name": "freeCodeCamp.org - Back End Development and APIs",
+      "date": "2023",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "tech": ["API REST"]
+    },
+    {
+      "name": "freeCodeCamp.org - JavaScript Algorithms and Data Structure Certification",
+      "date": "2023",
+      "status": "Finished",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "tech": ["JavaScript"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Terminal Portfolio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "status": "In Progress",
+      "url": "https://github.com/ahlaulhee/term-portfolio",
+      "tech": ["Vite", "React", "TailwindCSS", "TypeScript"]
+    },
+    {
+      "name": "TimeWise",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "status": "In Progress",
+      "url": "https://github.com/ahlaulhee/timewise",
+      "tech": [
+        "NextJS",
+        "React",
+        "TailwindCSS",
+        "Prisma ORM",
+        "PostgreSQL",
+        "TypeScript",
+        "NextAuth"
+      ]
+    },
+    {
+      "name": "BiblioBuds",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "status": "Finished",
+      "url": "https://github.com/BiblioBuds/BiblioBuds",
+      "tech": [
+        "NextJS",
+        "React",
+        "TailwindCSS",
+        "Prisma ORM",
+        "PostgreSQL",
+        "JavaScript",
+        "NextAuth"
+      ]
+    },
+    {
+      "name": "Recipe Vault",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "status": "Finished",
+      "url": "https://github.com/ahlaulhee/recipe_vault",
+      "tech": [
+        "React",
+        "CSS Modules",
+        "Express",
+        "NodeJS",
+        "JavaScript",
+        "PostgreSQL",
+        "Sequelize"
+      ]
+    },
+    {
+      "name": "WTTG2 Helper",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "status": "Finished",
+      "url": "https://github.com/ahlaulhee/wttg2-helper",
+      "tech": ["React", "TailwindCSS"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "C2"
+    },
+    {
+      "language": "Spanish",
+      "level": "Native"
+    }
+  ],
+  "contact": [
+    {
+      "name": "Email",
+      "source": "ahlaulhe@gmail.com"
+    },
+    {
+      "name": "LinkedIn",
+      "source": "https://www.linkedin.com/in/alex-laulhe/"
+    },
+    {
+      "name": "Github",
+      "source": "https://github.com/ahlaulhee"
+    }
+  ],
+  "commands": [
+    {
+      "command": "about",
+      "description": "About Me"
+    },
+    {
+      "command": "skills",
+      "description": "Show my skills"
+    },
+    {
+      "command": "contact",
+      "description": "Show every way there is of contacting me"
+    },
+    {
+      "command": "projects",
+      "description": "Show all the projects I've worked on"
+    },
+    {
+      "command": "education",
+      "description": "Show my education path"
+    },
+    {
+      "command": "complementary",
+      "description": "Show my complementary education"
+    },
+    {
+      "command": "languages",
+      "description": "Show the languages I know"
+    },
+    {
+      "command": "help",
+      "description": "Show the available commands"
+    }
+  ]
+}
