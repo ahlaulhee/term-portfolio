@@ -56,9 +56,29 @@ function App() {
         <div className="px-2 md:px-4 space-y-1 md:space-y-2">
           {data.commands.map((command, index) => (
             <div key={index}>
-              <p className="text-yellow hover:underline duration-200 cursor-pointer">
-                /{command.command}
-              </p>
+              <p className="text-yellow">/{command.command}</p>
+              {command.command === "info"
+                ? data.info.map((info, index) => (
+                    <div className="px-2 md:px-4 flex items-center justify-between space-x-6">
+                      <p
+                        key={index}
+                        className="text-green hover:underline duration-200 cursor-pointer"
+                        onClick={() => {
+                          setModalInfo({
+                            title: info.name,
+                            status: "",
+                            image: info.thumbnail,
+                            description: info.description,
+                            tech: info.tech ? info.tech : [],
+                          });
+                          openModal();
+                        }}
+                      >
+                        /{info.name.replace(" ", "-")}{" "}
+                      </p>
+                    </div>
+                  ))
+                : null}
               {command.command === "education"
                 ? data.education.map((education, index) => (
                     <div className="px-2 md:px-4 flex items-center justify-between space-x-6">
@@ -189,10 +209,12 @@ function App() {
           </div>
         </div>
         {/* FOOTER SECTION */}
-        <div>
-          <button onClick={openModal}>open modal</button>
-        </div>
       </div>
+      {/* <div
+        className={`fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center ${
+          isModalOpen ? "block" : "hidden"
+        }`}
+      > */}
       <CustomModal
         title={modalInfo.title}
         status={modalInfo.status}
@@ -202,6 +224,7 @@ function App() {
         isOpen={isModalOpen}
         onClose={closeModal}
       />
+      {/* </div> */}
     </div>
   );
 }

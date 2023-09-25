@@ -2,6 +2,52 @@
   "name": "Alex Hernán Laulhe",
   "nickname": "ahlaulhee",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum. Mauris luctus volutpat dolor, non mattis tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque a ipsum ante.",
+  "info": [
+    {
+      "name": "About",
+      "thumbnail": "https://i.imgur.com/2GdfKyk.png",
+      "description": "",
+      "tech": [
+        "typescript",
+        "javascript",
+        "python",
+        "java",
+        "csharp",
+        "tailwindcss",
+        "dotnet",
+        "express",
+        "nodedotjs",
+        "react",
+        "nextdotjs",
+        "vite",
+        "redux",
+        "mongodb",
+        "postgresql",
+        "mysql",
+        "sequelize",
+        "mongoose",
+        "prisma",
+        "html5",
+        "css3",
+        "git"
+      ]
+    },
+    {
+      "name": "Contact",
+      "thumbnail": "",
+      "description": "",
+      "link": [
+        {
+          "name": "github",
+          "url": "https://github.com/ahlaulhee"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/alex-laulhe/"
+        }
+      ]
+    }
+  ],
   "education": [
     {
       "name": "FullStack Developer - Henry",
@@ -211,16 +257,8 @@
   ],
   "commands": [
     {
-      "command": "about",
-      "description": "About Me"
-    },
-    {
-      "command": "skills",
-      "description": "Show my skills"
-    },
-    {
-      "command": "contact",
-      "description": "Show every way there is of contacting me"
+      "command": "info",
+      "description": "Information about me and how you can contact me."
     },
     {
       "command": "projects",
