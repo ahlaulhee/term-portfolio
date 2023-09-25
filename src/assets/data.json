@@ -5,40 +5,35 @@
   "education": [
     {
       "name": "FullStack Developer - Henry",
+      "thumbnail": "https://camo.githubusercontent.com/35b81f213ddb0e019b3567f6982d740bb2d01ae5dd712a1537e09e826e940228/68747470733a2f2f643331757a386c77666d796e38672e636c6f756466726f6e742e6e65742f4173736574732f6c6f676f2d68656e72792d77686974652d6c672e706e67",
       "status": "Finished",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "description": "In September 2023, I successfully graduated from the Henry FullStack Developer Bootcamp, a transformative experience that accelerated my journey as a FullStack Developer. This intensive program provided hands-on training in a versatile tech stack that encompassed React, PostgreSQL, Express, Node.js, CSS, HTML5, Git, GitHub, Gitflow, and SCRUM. By immersing myself in this immersive learning environment, I gained practical skills and knowledge that are highly relevant in today's dynamic tech industry. The Henry Bootcamp not only honed my technical abilities but also fostered a collaborative and agile mindset, essential qualities for thriving in a fast-paced development landscape. This bootcamp experience has played a pivotal role in shaping my career and enhancing my proficiency as a FullStack Developer.",
       "tech": [
-        "Git",
-        "React",
-        "Express",
-        "NodeJS",
-        "JavaScript",
-        "PostgreSQL",
-        "Sequelize",
-        "HTML5",
-        "CSS",
-        "CSS Modules",
-        "SCRUM",
-        "Data Structures",
-        "Problem Solving",
-        "GitFlow"
+        "git",
+        "react",
+        "express",
+        "nodedotjs",
+        "javascript",
+        "postgresql",
+        "sequelize",
+        "html5",
+        "css3"
       ]
     },
     {
-      "name": "Technical Degree - Universidad Tecnologica de Cordoba",
+      "name": "Technical Degree - Universidad Tecnológica de Córdoba",
+      "thumbnail": "https://frro.cvg.utn.edu.ar/theme/image.php/snap/theme/1652373334/img/logo",
       "status": "Finished",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "description": "In 2023, I successfully completed a Technical Degree in Software Development, a pivotal step in my career journey. This comprehensive program was tailored to equip me with the skills and knowledge essential for developing software solutions within corporate environments. Throughout this educational experience, I acquired an in-depth understanding of critical theoretical concepts, including REST APIs, Data Structures, Database Queries, Algorithms, as well as agile methodologies such as SCRUM. Furthermore, I delved into various important aspects of programming, including inheritance, polymorphism, and more. This educational journey not only broadened my technical expertise but also instilled a deep passion for software development and problem-solving.",
       "tech": [
-        "Java",
-        "C#",
-        ".NET",
-        "React Native",
-        "MongoDB",
-        "Mongoose",
-        "Express",
-        "NodeJS",
-        "Data Structures",
-        "Problem Solving"
+        "java",
+        "csharp",
+        "dotnet",
+        "react",
+        "mongodb",
+        "mongoose",
+        "express",
+        "nodedotjs"
       ]
     }
   ],
@@ -79,110 +74,125 @@
       ]
     },
     {
-      "name": "freeCodeCamp.org - Learn Rust Programming - Complete Course",
+      "name": "freeCodeCamp - Learn Rust Programming - Complete Course",
       "date": "2023",
       "status": "Finished",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
-      "tech": ["Rust"]
+      "tech": ["rust"]
     },
     {
-      "name": "freeCodeCamp.org - Learn Tailwind CSS - Course for Beginners",
+      "name": "freeCodeCamp - Learn Tailwind CSS - Course for Beginners",
       "date": "2023",
       "status": "Finished",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
-      "tech": ["TailwindCSS", "CSS"]
+      "tech": ["tailwindcss", "css3"]
     },
     {
-      "name": "freeCodeCamp.org - Learn TypeScript - Full Tutorial",
+      "name": "freeCodeCamp - Learn TypeScript - Full Tutorial",
       "date": "2023",
       "status": "Finished",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
-      "tech": ["TypeScript", "JavaScript"]
+      "tech": ["typescript", "javascript"]
     },
     {
-      "name": "freeCodeCamp.org - Back End Development and APIs",
+      "name": "freeCodeCamp - Back End Development and APIs",
       "date": "2023",
       "status": "Finished",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
       "tech": ["API REST"]
     },
     {
-      "name": "freeCodeCamp.org - JavaScript Algorithms and Data Structure Certification",
+      "name": "freeCodeCamp - JavaScript Algorithms and Data Structure Certification",
       "date": "2023",
       "status": "Finished",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
-      "tech": ["JavaScript"]
+      "tech": ["javascript"]
     }
   ],
   "projects": [
     {
       "name": "Terminal Portfolio",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "thumbnail": "https://i.imgur.com/Uzqim4n.png",
+      "description": "My latest project is my full-stack developer portfolio, designed as an interactive terminal interface. Visitors can explore my background, education, and projects through popup windows that mimic terminal commands. This unique approach combines my technical skills with creative web design for an engaging user experience.",
       "status": "In Progress",
       "url": "https://github.com/ahlaulhee/term-portfolio",
-      "tech": ["Vite", "React", "TailwindCSS", "TypeScript"]
+      "tech": ["vite", "react", "tailwindcss", "typescript"]
     },
     {
       "name": "TimeWise",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "thumbnail": "https://i.imgur.com/vLdWO5g.png",
+      "description": "'Timewise' is my recent project, a web app that streamlines password and task management securely. Users authenticate with a name and password, and passwords are stored locally, not in a central database, ensuring privacy. It generates passwords based on user input and allows tracking of task time. It's a versatile tool for efficient and secure management.",
       "status": "In Progress",
       "url": "https://github.com/ahlaulhee/timewise",
       "tech": [
-        "NextJS",
-        "React",
-        "TailwindCSS",
-        "Prisma ORM",
-        "PostgreSQL",
-        "TypeScript",
+        "nextdotjs",
+        "react",
+        "tailwindcss",
+        "prisma",
+        "postgresql",
+        "typescript",
         "NextAuth"
       ]
     },
     {
       "name": "BiblioBuds",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "thumbnail": "https://i.imgur.com/NP7tzxv.png",
+      "description": "Led a cross-functional team in building an e-commerce platform for books using SCRUM Agile methodology. Worked on both front-end and back-end development to deliver a seamless online shopping experience.",
       "status": "Finished",
       "url": "https://github.com/BiblioBuds/BiblioBuds",
       "tech": [
-        "NextJS",
-        "React",
-        "TailwindCSS",
-        "Prisma ORM",
-        "PostgreSQL",
-        "JavaScript",
+        "nextdotjs",
+        "react",
+        "tailwindcss",
+        "prisma",
+        "postgresql",
+        "javascript",
         "NextAuth"
       ]
     },
     {
       "name": "Recipe Vault",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "thumbnail": "",
+      "description": "Independently developed a dynamic food recipe website where users can explore, add, and search for recipes. Implemented features for easy recipe filtering and searching, providing a user-friendly platform for culinary enthusiasts to discover and contribute to a growing collection of recipes.",
       "status": "Finished",
       "url": "https://github.com/ahlaulhee/recipe_vault",
       "tech": [
-        "React",
-        "CSS Modules",
-        "Express",
-        "NodeJS",
-        "JavaScript",
-        "PostgreSQL",
-        "Sequelize"
+        "react",
+        "css3",
+        "express",
+        "nodedotjs",
+        "javascript",
+        "postgresql",
+        "sequelize"
       ]
     },
     {
       "name": "WTTG2 Helper",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur nulla, non dignissim tellus. Proin fringilla lectus at ex scelerisque, et rutrum diam porttitor. In luctus magna ac elit tristique, at volutpat erat bibendum.",
+      "thumbnail": "https://i.imgur.com/gAZGKzv.png",
+      "description": "The 'WTTG2 Helper' is a website tailored for new 'Welcome to the Game 2' players. It simplifies key management and aids in locating keys within the game's source code. With an easy-to-use interface, it ensures players keep track of their keys and offers guidance on deciphering source code, enhancing the gaming experience.",
       "status": "Finished",
       "url": "https://github.com/ahlaulhee/wttg2-helper",
-      "tech": ["React", "TailwindCSS"]
+      "tech": ["react", "tailwindcss"]
+    },
+    {
+      "name": "PaSSafe",
+      "thumbnail": "https://i.imgur.com/ogxT5P8.png",
+      "description": "Created a versatile mobile application that serves as both a secure password manager and a news aggregator. Users can generate and customize strong passwords for various accounts, ensuring their online security. The app also offers a comprehensive news section with multiple categories, allowing users to stay informed about their areas of interest.",
+      "status": "Finished",
+      "url": "",
+      "tech": ["react", "express", "mongodb", "nodedotjs"]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "level": "C2"
+      "level": "C2",
+      "certificate": "https://www.efset.org/cert/f8TD3A"
     },
     {
       "language": "Spanish",
-      "level": "Native"
+      "level": "Native",
+      "certificate": ""
     }
   ],
   "contact": [

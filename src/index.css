@@ -8,6 +8,7 @@
   :root {
     /* @apply bg-black; */
     @apply text-foreground;
+    @apply bg-no-repeat bg-cover bg-center;
     background-image: url(https://c.wallhere.com/photos/3f/75/KOHAKUNUSHI_katana_pistol_teeth_Nord_Theme_gun_anime_anime_girls-2228202.jpg!d);
     /* @apply min-h-screen;
     @apply border-2 rounded-md;
