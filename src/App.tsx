@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import data from "./assets/data.json";
 import CustomModal from "./components/CustomModal";
+import InfoModal from "./components/InfoModal";
+import ContactModal from "./components/ContactModal";
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -18,11 +20,21 @@ function App() {
     description: "",
     tech: [],
   });
+  const [isPersonalModalOpen, setIsPersonalModalOpen] = useState(false);
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
+
+  const openPersonalModal = () => setIsPersonalModalOpen(true);
+  const closePersonalModal = () => setIsPersonalModalOpen(false);
+
+  const openContactModal = () => setIsContactModalOpen(true);
+  const closeContactModal = () => setIsContactModalOpen(false);
+
   console.log(data);
   const currentTime = new Date().toLocaleString("en-US").split(",");
+
   return (
     <div className="p-2 md:p-5 2xl:p-10 h-screen w-screen text-sm md:text-base">
       <div className="w-full h-full bg-background rounded-lg border md:border-2 p-2 space-y-2">
@@ -64,14 +76,9 @@ function App() {
                         key={index}
                         className="text-green hover:underline duration-200 cursor-pointer"
                         onClick={() => {
-                          setModalInfo({
-                            title: info.name,
-                            status: "",
-                            image: info.thumbnail,
-                            description: info.description,
-                            tech: info.tech ? info.tech : [],
-                          });
-                          openModal();
+                          index === 0
+                            ? openPersonalModal()
+                            : openContactModal();
                         }}
                       >
                         /{info.name.replace(" ", "-")}{" "}
@@ -172,13 +179,7 @@ function App() {
                         </span>
                       </p>
                       <p className="text-xs hidden md:block">
-                        projects/{project.name}
-                        {/* <a
-                          className="hover:underline duration-200 cursor-pointer"
-                          href={project.url}
-                        >
-                          {project.url}
-                        </a> */}
+                        complementary/{project.name}
                       </p>
                     </div>
                   ))
@@ -210,11 +211,6 @@ function App() {
         </div>
         {/* FOOTER SECTION */}
       </div>
-      {/* <div
-        className={`fixed top-0 left-0 right-0 bottom-0 flex justify-center items-center ${
-          isModalOpen ? "block" : "hidden"
-        }`}
-      > */}
       <CustomModal
         title={modalInfo.title}
         status={modalInfo.status}
@@ -224,7 +220,8 @@ function App() {
         isOpen={isModalOpen}
         onClose={closeModal}
       />
-      {/* </div> */}
+      <InfoModal isOpen={isPersonalModalOpen} onClose={closePersonalModal} />
+      <ContactModal isOpen={isContactModalOpen} onClose={closeContactModal} />
     </div>
   );
 }

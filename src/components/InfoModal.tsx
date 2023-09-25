@@ -1,19 +1,16 @@
 import Draggable from "react-draggable";
 import { Resizable } from "re-resizable";
+import { TypeAnimation } from "react-type-animation";
+
+import { name, info } from "../assets/data.json";
 
 type Props = {
   isOpen: boolean;
   onClose: () => void;
-
-  title: string;
-  image?: string;
-  status: string;
-  description: string;
-  tech: string[];
 };
 
-const CustomModal = (props: Props) => {
-  const techIcons = props.tech.map((icon) => (
+const InfoModal = (props: Props) => {
+  const techIcons = info[0].tech?.map((icon) => (
     <li
       className="group flex flex-col justify-center items-center w-24"
       key={icon}
@@ -50,7 +47,7 @@ const CustomModal = (props: Props) => {
             <div className="flex justify-between w-full h-fit p-1 bg-gray border-b-black border-b rounded-tl-lg rounded-tr-lg handle">
               <div className="w-1/4"></div>
               <div className="text-red text-lg w-full text-center">
-                {props.title}
+                {info[0].name}
               </div>
               <div className="w-1/4 flex justify-end">
                 <button
@@ -62,22 +59,28 @@ const CustomModal = (props: Props) => {
               </div>
             </div>
             <div className="p-4 space-y-4 overflow-y-scroll overflow-x-hidden">
-              <div className="text-justify">{props.description}</div>
+              <div className="text-center">
+                <TypeAnimation
+                  sequence={[`Hi i'm ${name}`, 5000, "", 1000]}
+                  repeat={Infinity}
+                  speed={50}
+                  className="text-green text-2xl"
+                />
+              </div>
               <div className="flex justify-center">
                 <img
-                  src={props.image}
+                  src={info[0].thumbnail}
                   alt="Thumbnail"
                   className="rounded-lg border-2 border-black flex"
                 />
               </div>
-
-              {props.status ? (
-                <div className="text-center text-green">
-                  Status: {props.status}
-                </div>
-              ) : null}
+              <div className="text-justify indent-12">
+                {info[0].description}
+              </div>
               <div>
-                <div className="flex justify-center text-cyan">Tech used:</div>
+                {info[0].tech ? (
+                  <div className="flex justify-center text-cyan">Tech:</div>
+                ) : null}
                 {techIcons ? (
                   <ul className="flex flex-wrap gap-4 justify-center">
                     {techIcons}
@@ -92,4 +95,4 @@ const CustomModal = (props: Props) => {
   );
 };
 
-export default CustomModal;
+export default InfoModal;

@@ -5,8 +5,8 @@
   "info": [
     {
       "name": "About",
-      "thumbnail": "https://i.imgur.com/2GdfKyk.png",
-      "description": "",
+      "thumbnail": "https://i.imgur.com/n6btC7c.png",
+      "description": "I began my journey in software development as a hobby during my high school years, and decided to fully commit to it when I entered the Universidad Tecnológica Nacional in Córdoba, where I pursued a degree in Programming. I successfully completed my studies in 2023. I am driven by a passion for learning new technologies and creating innovative projects. I believe my strengths lie in my problem-solving abilities, logical and analytical thinking, and my enthusiasm for tackling new projects. I primarily use the MERN stack (MongoDB, Express, React, and NodeJS), but I also have knowledge in many other technologies and frameworks. I am always eager to expand my skill set and take on new challenges in the ever-evolving field of software development.",
       "tech": [
         "typescript",
         "javascript",
@@ -29,7 +29,9 @@
         "prisma",
         "html5",
         "css3",
-        "git"
+        "git",
+        "linux",
+        "windows"
       ]
     },
     {
@@ -225,7 +227,7 @@
       "thumbnail": "https://i.imgur.com/ogxT5P8.png",
       "description": "Created a versatile mobile application that serves as both a secure password manager and a news aggregator. Users can generate and customize strong passwords for various accounts, ensuring their online security. The app also offers a comprehensive news section with multiple categories, allowing users to stay informed about their areas of interest.",
       "status": "Finished",
-      "url": "",
+      "url": "https://bitbucket.org/111850/111850-frontend/src/master/",
       "tech": ["react", "express", "mongodb", "nodedotjs"]
     }
   ],
