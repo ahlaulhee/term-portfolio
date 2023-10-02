@@ -200,7 +200,7 @@
     },
     {
       "name": "Recipe Vault",
-      "thumbnail": "",
+      "thumbnail": "https://i.imgur.com/tTTjC71.png",
       "description": "Independently developed a dynamic food recipe website where users can explore, add, and search for recipes. Implemented features for easy recipe filtering and searching, providing a user-friendly platform for culinary enthusiasts to discover and contribute to a growing collection of recipes.",
       "status": "Finished",
       "url": "https://github.com/ahlaulhee/recipe_vault",

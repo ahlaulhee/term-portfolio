@@ -32,8 +32,15 @@ Terminal Portfolio, as the name implies, is a portfolio designed with a terminal
 
 ## Usage
 
-Now that the portfolio is installed you can run it locally.
+Now that the portfolio dependencies are installed you can run the project locally.
 
 ```sh
 pnpm run dev
 ```
+
+## ToDos
+
+- [ ] Add fancy animations on modal mounting
+- [ ] Add fancy notifications when submitting a message through contact form
+- [ ] Make the modals responsive to the user's screen
+- [ ] Let the user be able to open multiple modals (createPortal ?)
