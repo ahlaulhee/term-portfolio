@@ -2,6 +2,9 @@ import Draggable from "react-draggable";
 import { Resizable } from "re-resizable";
 
 import { info } from "../assets/data.json";
+import { useRef, useState } from "react";
+
+import emailjs from "@emailjs/browser";
 
 type Props = {
   isOpen: boolean;
@@ -9,6 +12,18 @@ type Props = {
 };
 
 const ContactModal = (props: Props) => {
+  const [formData, setFormData] = useState<{
+    user_name: string;
+    user_email: string;
+    message: string;
+  }>({
+    user_name: "",
+    user_email: "",
+    message: "",
+  });
+
+  const form = useRef<HTMLFormElement | null>(null);
+
   const contactIcons = info[1].link?.map((icon) => (
     <a
       className="group flex flex-col justify-center items-center w-24"
@@ -25,13 +40,39 @@ const ContactModal = (props: Props) => {
       />
     </a>
   ));
-  console.log(contactIcons);
 
   if (!props.isOpen) {
     return null;
   }
 
-  console.log(info[1]);
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (!form.current) {
+      return;
+    }
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_SERVICE_KEY,
+        import.meta.env.VITE_TEMPLATE_ID,
+        form.current,
+        import.meta.env.VITE_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <div className="fixed top-[5%] bottom-0 left-[3%] right-0">
@@ -69,29 +110,42 @@ const ContactModal = (props: Props) => {
                   className="rounded-lg flex w-24 h-24 contrast-50"
                 />
               </div>
-              <div className="flex flex-col px-12 space-y-4">
+              <form
+                ref={form}
+                onSubmit={sendEmail}
+                className="flex flex-col px-12 space-y-4"
+              >
                 <input
                   type="text"
                   placeholder="Name"
+                  name="user_name"
+                  value={formData.user_name}
+                  onChange={handleChange}
                   className="py-2 px-4 rounded-lg border-2 border-purple outline-none text-background"
                 />
                 <input
-                  type="text"
+                  type="email"
                   placeholder="Email"
+                  name="user_email"
+                  value={formData.user_email}
+                  onChange={handleChange}
                   className="py-2 px-4 rounded-lg border-2 border-purple outline-none text-background"
                 />
                 <textarea
                   placeholder="Message"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
                   rows={5}
                   className="py-2 px-4 rounded-lg border-2 border-purple resize-none outline-none text-background"
                 />
-                <button
+                <input
                   type="submit"
-                  className="py-3 px-4 rounded-lg bg-red hover:bg-purple duration-300"
-                >
-                  Send
-                </button>
-              </div>
+                  value="Send"
+                  className="py-3 px-4 rounded-lg bg-red hover:bg-purple duration-300 cursor-pointer"
+                  // onClick={sendEmail}
+                />
+              </form>
               <div className="text-center">
                 <p>You can find me:</p>
                 {contactIcons ? (

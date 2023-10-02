@@ -216,11 +216,11 @@
     },
     {
       "name": "WTTG2 Helper",
-      "thumbnail": "https://i.imgur.com/gAZGKzv.png",
+      "thumbnail": "https://i.imgur.com/BelG4ak.png",
       "description": "The 'WTTG2 Helper' is a website tailored for new 'Welcome to the Game 2' players. It simplifies key management and aids in locating keys within the game's source code. With an easy-to-use interface, it ensures players keep track of their keys and offers guidance on deciphering source code, enhancing the gaming experience.",
       "status": "Finished",
       "url": "https://github.com/ahlaulhee/wttg2-helper",
-      "tech": ["react", "tailwindcss"]
+      "tech": ["vite", "react", "tailwindcss", "shadcn"]
     },
     {
       "name": "PaSSafe",
