@@ -42,8 +42,14 @@ const CustomModal = (props: Props) => {
           maxHeight={900}
           maxWidth={1800}
           defaultSize={{
-            width: 960,
-            height: 800,
+            width:
+              window.screen.availWidth > 768
+                ? window.screen.availWidth / 2
+                : window.screen.availWidth,
+            height:
+              window.screen.availWidth > 768
+                ? window.screen.availHeight / 1.5
+                : window.screen.availHeight,
           }}
         >
           <div className="fixed top-0 right-0 bottom-0 left-0 flex flex-col bg-background border border-white text-white rounded-md text-lg">
